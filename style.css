@@ -9,13 +9,16 @@ body {
       color: black;
     }
 
-a:hover {
-    color: red;
+a:hover{
+    color: rgb(28, 232, 123);
     
    
 }
  a:visited {
-    color: black;
+    color: rgb(27, 25, 28);
+ }
+ a:active{
+  color: rgb(87, 31, 218);
  }
 
  #btn {
@@ -23,7 +26,7 @@ a:hover {
  }
 
  #demo {
-    background-color: brown;
+    background-color: rgb(24, 236, 88);
     text-align: center;
     width: auto;
     height: 100%;
@@ -37,11 +40,13 @@ a:hover {
   
  #lo {
     color: brown;
-    margin-left: 400px;
+    
  }
 
  #sarkari {
-   margin-left: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
 
  #A {
